@@ -1,3 +1,64 @@
+# Tourist Attractions in each location.
+
+UNDER DEVELOPMENT.
+
+## Getting Started
+
+This project aims to showcase the tourist attractions and memorable spots in each location based on the user's geolocation. It will provide information such as the creation date, notes, and a brief description, along with a message field where the user can individually share each experience with other users.
+
+Step 1: Firebase Setup
+
+    Access the Firebase Console (https://console.firebase.google.com/) and create a new project.
+    Within the project, go to the "Project Settings" section and add a Flutter app.
+    Follow the instructions to download the google-services.json file, which contains the Firebase configurations.
+
+Step 2: Flutter Setup
+
+    In the directory of your Flutter project, add the downloaded google-services.json file to the android/app folder.
+    Open the android/build.gradle file and add the following dependency inside dependencies:
+
+groovy
+
+classpath 'com.google.gms:google-services:4.3.10'
+
+    Open the android/app/build.gradle file and add the following line at the end:
+
+groovy
+
+apply plugin: 'com.google.gms.google-services'
+
+    In the directory of your Flutter project, open the pubspec.yaml file and add the following dependencies:
+
+yaml
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_auth: ^0.16.0
+  cloud_firestore: ^0.13.0
+
+    Run the command flutter pub get in the terminal to download the dependencies.
+
+Step 3: Flutter Code Configuration
+
+    Import the following libraries in the Dart file where you want to use Firebase:
+
+dart
+
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+
+    Initialize Firebase by adding the following code in the main() method:
+
+dart
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MyApp());
+}
+
 # Pontos Turísticos de cada localidade.
 
 EM DESENVOLVIMENTO.
