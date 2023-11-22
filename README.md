@@ -4,7 +4,7 @@ UNDER DEVELOPMENT.
 
 ## Getting Started
 
-This project aims to showcase the tourist attractions and memorable spots in each location based on the user's geolocation. It will provide information such as the creation date, notes, and a brief description, along with a message field where the user can individually share each experience with other users.
+This project is an initiative aimed at providing users with information about tourist spots and memorable locations nearby based on geolocation. The idea behind this project is to offer details such as creation date, personal notes, and a brief description of each location, along with the ability to share experiences with other users through a messaging field.
 
 Step 1: Firebase Setup
 
@@ -65,7 +65,7 @@ EM DESENVOLVIMENTO.
 
 ## Getting Started
 
-Este projeto tem como objetivo mostrar os pontos turísticos e memoráveis de cada local onde o usuário está, com base em sua geolocalização. Ele fornecerá informações como a data de criação, anotações e uma breve descrição, além de um campo de mensagem onde o usuário pode compartilhar cada experiência individualmente com outros usuários.
+Este projeto é uma iniciativa que visa proporcionar aos usuários informações sobre pontos turísticos e locais memoráveis em sua proximidade com base na geolocalização. A ideia por trás desse projeto é oferecer detalhes como data de criação, notas pessoais e uma breve descrição de cada local, juntamente com a capacidade de compartilhar suas experiências com outros usuários por meio de um campo de mensagens.
 
 Passo 1: Configuração do Firebase
 
